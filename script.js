@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', () => {
         // Add event listener for hover out
         square.addEventListener('mouseout', () => {
             setTimeout(() => {
-                square.style.backgroundColor = 'black';
+                square.style.backgroundColor = 'rgb(29, 29, 29';
             }, 1000); // 1 second delay
         });
     }
